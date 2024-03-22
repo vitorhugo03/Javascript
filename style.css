@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    background-color: #091faf;
+    color: white;
+}
+
+.primeiro {
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    width: 250px; 
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+#topicos {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border-radius: 8px;
+    resize: none;
+}
+
+#descricaoLabel {display: flex;
+  padding-top: 1px;
+}
+p{
+ 
+    text-align: left;
+}

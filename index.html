@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Meu Dicionário JavaScript</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="imgjs.png" alt="Imagem Javascript">
+            <h1>Bem-vindo ao Meu Dicionário JavaScript!</h1>
+            <p class="primeiro">Escolha um verbete no combo abaixo:</p>
+            <select id="topicos">
+                <option value="O que é JavaScript">O que é JavaScript</option>
+                <option value="Statement 'for'">Statement 'for'</option>
+                <option value="Funções em JavaScript">Funções em JavaScript</option>
+                <option value="Objetos em JavaScript">Objetos em JavaScript</option>
+            </select>
+            <p>Escreva algo na área de texto abaixo:</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <div>
+            <p id="descricaoLabel"></p>
+            <textarea id="informação"></textarea>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
